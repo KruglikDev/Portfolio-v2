@@ -30,48 +30,34 @@ import {ReactComponent as SolidityIcon} from '../icons/solidity.svg';
 export const Experience = [
     {
         id: 1,
-        date: "2016 - present",
+        date: "01.2022 - 06.2022",
         iconsSrc: <IoCodeWorking/>,
-        title: "Creative Director",
-        location: "Doha, Qatar",
+        title: "FrontEnd Developer",
+        company: "KozhinDev Studio",
+        location: "Krasnoyarsk, Russia",
         description:
-            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+            [
+                "Developed various React Native websites and applications, the most interesting of which:",
+                "https://kozhindev.com - developed website's frontend part, improved it's view and added different features using React, Redux, Typescript and Steroids framework." +
+                "Implemented adaptive design for mobile phones/tablets.",
+                "https://goldenbee.estate - developed frontend part of website using React, Redux, Typescript and Steroids framework;",
+                "Connected local supermarket network React Native app with their database."
+            ],
     },
     {
         id: 2,
-        date: "2014 - 2016",
+        date: "04.2021 - 11.2021",
         iconsSrc: <IoCodeWorking/>,
-        title: "Creative Director",
-        location: "Doha, Qatar",
-        description:
-            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-    },
-    {
-        id: 3,
-        date: "2012 - 2014",
-        iconsSrc: <IoCodeWorking/>,
-        title: "Creative Director",
-        location: "Doha, Qatar",
-        description:
-            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-    },
-    {
-        id: 4,
-        date: "2011 - 2012",
-        iconsSrc: <IoCodeWorking/>,
-        title: "Creative Director",
-        location: "Doha, Qatar",
-        description:
-            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
-    },
-    {
-        id: 5,
-        date: "2010 - 2011",
-        iconsSrc: <IoCodeWorking/>,
-        title: "Creative Director",
-        location: "Doha, Qatar",
-        description:
-            "Creative Direction, User Experience, Visual Design, Project Management, Team Leading",
+        title: "Trainee/Junior FrontEnd Developer",
+        company: "24Pixels Studio",
+        location: "Krasnoyarsk, Russia",
+        description: [
+            "Developed responsive/adaptive layouts for websites using Figma/Photoshop templates;",
+            "Maintained websites by adding new features and data;",
+            "Created front parts of websites using HTML, CSS/SASS, Javascript, React and Redux frameworks;",
+            "Conducted testing and review of website design for responsiveness, clarity and effectiveness;",
+            "Converted websites into installable PWA's to bring a native app-like user experience."
+        ]
     },
 ];
 

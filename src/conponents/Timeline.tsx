@@ -16,15 +16,18 @@ const Timeline = () => {
                         iconStyle={{background: 'rgb(21, 24, 31)', color: '#fff'}}
                         icon={el.iconsSrc}
                     >
-                        <h3 className="vertical-timeline-element-title">
+                        <h3 className="vertical-timeline-element-title font-bold">
                             {el.title}
                         </h3>
-                        <h4 className="vertical-timeline-element-subtitle">
+                        <h4 className="vertical-timeline-element-subtitle font-medium">
+                            {el.company}
+                        </h4>
+                        <h4 className="vertical-timeline-element-subtitle pb-10">
                             {el.location}
                         </h4>
-                        <p>
-                            {el.description}
-                        </p>
+                        <ul>
+                            {el.description.map((item, i) => <li key={i}>{item}</li>)}
+                        </ul>
                     </VerticalTimelineElement>)
                 })}
             </VerticalTimeline>

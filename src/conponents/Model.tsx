@@ -2,7 +2,7 @@ import Spline from "@splinetool/react-spline";
 
 const Model = () => {
     return (
-        <section className="relative block mt-20 flex justify-center items-center object-cover" id='home'>
+        <section className="relative block mt-20 top-12 flex justify-center items-center object-cover" id='home'>
             <Spline
                 scene="https://prod.spline.design/WqAqUDqtpxB9lX9h/scene.splinecode"
                 height='600px'
