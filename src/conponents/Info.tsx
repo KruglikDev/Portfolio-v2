@@ -1,4 +1,4 @@
-import me from '../me.jpg';
+import me from '../images/me.jpg';
 import {motion} from "framer-motion";
 
 const Info = () => {
@@ -20,11 +20,17 @@ const Info = () => {
 
                 <div className='w-full h-420 flex flex-col items-center justify-center'>
                     <p className='text-lg text-textBase text-center'>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi aperiam dignissimos
-                        facilis illo inventore nostrum omnis placeat suscipit totam. Architecto expedita illum impedit,
-                        minus obcaecati possimus sint? Alias atque, beatae cum, cumque deserunt dicta dolor doloremque
-                        dolores eligendi esse est eum explicabo, fugiat in incidunt iure iusto magni maiores
-                        necessitatibus nesciunt nobis nostrum officiis porro possimus tempore voluptatem voluptates.
+                        Frontend developer is the speciality in which I want to grow and develop as a specialist.
+                        I learned everything by myself, step by step, to offer you the best practices and modern coding
+                        techniques, never stopped learning new frameworks and libraries, creating new applications and
+                        websites.
+                    </p>
+                    <br/>
+                    <p className='text-lg text-textBase text-center'>
+                        Today, having tools such as Typescript, Javascript, React, React Native, Redux, Redux Toolkit,
+                        SCSS, Axios, Formik and many others on my belt, I can create a site of any complexity, both with
+                        adaptive layout or with adaptive, no matter how many animations it needs to have or what device
+                        it needs to look great on.
                     </p>
 
                     <motion.button
@@ -33,7 +39,7 @@ const Info = () => {
                     >
                 <span
                     className="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                  Download
+                  Download Resume
                 </span>
                     </motion.button>
                 </div>

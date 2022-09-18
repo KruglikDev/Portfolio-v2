@@ -4,8 +4,8 @@ import {motion} from "framer-motion";
 const Contact = () => {
     return (
         <section
-            id="contacts"
-            className="flex flex-col items-center justify-evenly w-full my-24"
+            id="contact"
+            className="flex flex-col items-center justify-evenly w-full"
         >
             <p className="text-2xl text-gray-400 capitalize">Follow me on</p>
             <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">

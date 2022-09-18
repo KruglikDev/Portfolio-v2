@@ -1,11 +1,11 @@
 import {useEffect, useState} from "react";
 import {AnimatePresence, motion} from "framer-motion";
+import logo from '../images/ak-logo-white.png';
 
 const NavBar = () => {
     const [isActive, setIsActive] = useState(false);
     const genericHamburgerLine = `h-1 w-6 my-1 rounded-full bg-textBase transition ease transform duration-300`;
 
-    //TODO add closing on outside click
     useEffect(() => {
         const handleKeypress = (e: KeyboardEvent) => {
             if (isActive && e.key === 'Escape') {
@@ -22,6 +22,11 @@ const NavBar = () => {
         <AnimatePresence>
             <nav className='flex justify-center items-center w-full px-6 z-50 fixed inset-x-0 top-2'>
                 <div className="w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
+                    <img
+                        src={logo}
+                        alt="logo"
+                        className='w-8 h-8 mr-3'
+                    />
                     <h1 className="text-xl text-slate-400 font-bold">
                         Andrey Kruglik
                     </h1>
@@ -48,7 +53,7 @@ const NavBar = () => {
 
                         <a href="#"
                            className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>
-                            Download
+                            Download Resume
                         </a>
                     </div>
 
@@ -112,7 +117,7 @@ const NavBar = () => {
                             <a onClick={() => setIsActive(false)}
                                href="#"
                                className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>
-                                Download
+                                Download Resume
                             </a>
                         </motion.div>
                     )}
