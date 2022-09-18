@@ -1,8 +1,6 @@
 import {
     IoCodeWorking,
     IoLogoGithub,
-    IoLogoYoutube,
-    IoLogoTwitter,
     IoLogoLinkedin,
     IoLogoWhatsapp,
 } from "react-icons/io5";
@@ -100,41 +98,27 @@ export const projects = [
     },
 ];
 
-// export const SocialLinks = [
-//     {
-//         id: 1,
-//         iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer" />,
-//         name: "GitHub",
-//         link: "#",
-//     },
-//     {
-//         id: 1,
-//         iconSrc: <IoLogoYoutube className="text-red-500 text-3xl cursor-pointer" />,
-//         name: "YouTube",
-//         link: "#",
-//     },
-//     {
-//         id: 1,
-//         iconSrc: (
-//             <IoLogoTwitter className="text-blue-500 text-3xl cursor-pointer" />
-//         ),
-//         name: "Twitter",
-//         link: "#",
-//     },
-//     {
-//         id: 1,
-//         iconSrc: (
-//             <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer" />
-//         ),
-//         name: "LinkedIn",
-//         link: "#",
-//     },
-//     {
-//         id: 1,
-//         iconSrc: (
-//             <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
-//         ),
-//         name: "Whatsapp",
-//         link: "#",
-//     },
-// ];
+export const socialLinks = [
+    {
+        id: 1,
+        iconSrc: <IoLogoGithub className="text-textBase text-3xl cursor-pointer"/>,
+        name: "GitHub",
+        link: "#",
+    },
+    {
+        id: 1,
+        iconSrc: (
+            <IoLogoLinkedin className="text-blue-800 text-3xl cursor-pointer"/>
+        ),
+        name: "LinkedIn",
+        link: "#",
+    },
+    {
+        id: 1,
+        iconSrc: (
+            <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer"/>
+        ),
+        name: "Whatsapp",
+        link: "#",
+    },
+];

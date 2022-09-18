@@ -3,6 +3,7 @@ import Model from "./conponents/Model";
 import Info from "./conponents/Info";
 import Timeline from "./conponents/Timeline";
 import Projects from "./conponents/Projects";
+import Contact from "./conponents/Contact";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Info/>
             <Timeline/>
             <Projects/>
+            <Contact/>
         </div>
     );
 }
