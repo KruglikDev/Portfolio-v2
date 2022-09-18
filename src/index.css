@@ -21,3 +21,8 @@ code {
 body::-webkit-scrollbar, html::-webkit-scrollbar {
     display: none;
 }
+
+#home {
+    width: inherit;
+    height: inherit;
+}
