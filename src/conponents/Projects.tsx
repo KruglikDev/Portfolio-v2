@@ -1,5 +1,6 @@
 import {projects} from '../utils/data.js';
 import {IoLogoGithub} from "react-icons/io5";
+import {motion} from "framer-motion";
 
 const Projects = () => {
     return (
@@ -30,11 +31,9 @@ const Projects = () => {
                       </span>
                         </p>
                         <a href={el.github}>
-                            <div
-                                // whileTap={{scale: 0.5}}
-                            >
+                            <motion.div whileTap={{scale: 0.8}}>
                                 <IoLogoGithub className="text-textBase text-3xl cursor-pointer"/>
-                            </div>
+                            </motion.div>
                         </a>
                     </div>
                 </div>
