@@ -2,6 +2,7 @@ import NavBar from "./conponents/NavBar";
 import Model from "./conponents/Model";
 import Info from "./conponents/Info";
 import Timeline from "./conponents/Timeline";
+import Projects from "./conponents/Projects";
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <Model/>
             <Info/>
             <Timeline/>
+            <Projects/>
         </div>
     );
 }
