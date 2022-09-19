@@ -26,7 +26,7 @@ const Model = () => {
 
     return (
         <section
-            className="w-full relative block flex justify-center top-20 items-center object-cover h-420 overflow-clip sm:h-685"
+            className="w-full relative block flex justify-center top-20 items-center object-cover h-420 overflow-clip sm:h-685 sm:w-656"
             id='home'>
             {!state && <div className='-mt-20 mb-10 -top-16'><Loader/></div>}
             {windowDimensions.width > 640 ? <Spline

@@ -33,7 +33,7 @@ const NavBar = () => {
 
                     <div className='hidden md:flex items-center gap-6 ml-6 flex-1'>
                         <div className='flex gap-6 ml-6 flex-1 justify-center'>
-                            <a href="#home"
+                            <a href="#"
                                className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in-out'>
                                 Home
                             </a>
