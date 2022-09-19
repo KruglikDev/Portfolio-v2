@@ -1,5 +1,4 @@
 import {lazy, useEffect, useState} from "react";
-import Loader from "./Loader";
 
 const Spline = lazy(() => import('@splinetool/react-spline'));
 
@@ -12,7 +11,6 @@ function getWindowDimensions() {
 }
 
 const Model = () => {
-    const [state, setState] = useState(false);
     const [windowDimensions, setWindowDimensions] = useState(getWindowDimensions());
 
     useEffect(() => {
@@ -28,26 +26,20 @@ const Model = () => {
         <section
             className="w-full relative block flex justify-center top-20 items-center object-cover h-420 overflow-clip sm:h-685 sm:w-656"
             id='home'>
-            {!state && <div className='-mt-20 mb-10 -top-16'><Loader/></div>}
-            {windowDimensions.width > 640 ? <Spline
-                    scene="https://prod.spline.design/0ZJKcbKsDVqfWU92/scene.splinecode"
-                    style={{visibility: !state ? 'hidden' : 'visible'}}
-                    width={windowDimensions.width - 20}
-                    onLoad={() => setState(true)}
-                /> :
-                <Spline
-                    scene="https://prod.spline.design/4JkGjuIcZe3NjtCz/scene.splinecode"
-                    style={{visibility: !state ? 'hidden' : 'visible'}}
-                    onLoad={() => setState(true)}
-                />}
+            {windowDimensions.width > 640 ?
+                <iframe src='https://my.spline.design/forbigiframe-25cd77cff9c3269af03574d108805ee9/'
+                        width='100%' height='100%'></iframe>
+                : (<iframe src='https://my.spline.design/foriframe-8fa0f5cc534cf9ab81e8da46de63e091/' frameBorder='0'
+                           width='360px' height='100%'></iframe>)}
 
-            {state && <div className='absolute bottom-10 w-full justify-center items-center flex top-96'>
-                <div className='shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl'>
+            <div className='absolute bottom-10 justify-center items-center flex top-96 w-full'>
+                <div
+                    className='shadow-md p-4 flex items-center justify-center bg-zinc-900 rounded-3xl w-full sm:w-auto mx-4'>
                     <p className='text-textBase'>
                         Press and drag to orbit
                     </p>
                 </div>
-            </div>}
+            </div>
         </section>
     )
 }

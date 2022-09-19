@@ -3,9 +3,9 @@ import {motion} from "framer-motion";
 
 const Info = () => {
     return (
-        <main className='w-[80%] mt-5'>
+        <main className='w-[80%] lg:w-[70%] mt-5'>
             <section
-                className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-24 mb-28'
+                className='w-full grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-4 mt-24 mb-28'
                 id='about'
             >
                 <div className='mb-10 w-full h-440 flex items-center justify-center md:mb-0'>
