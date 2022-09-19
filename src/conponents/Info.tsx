@@ -5,10 +5,10 @@ const Info = () => {
     return (
         <main className='w-[80%] mt-5'>
             <section
-                className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24'
+                className='w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-24 mb-28'
                 id='about'
             >
-                <div className='w-full h-420 flex items-center justify-center'>
+                <div className='mb-10 w-full h-440 flex items-center justify-center md:mb-0'>
                     <div className='w-275 h-340 bg-blue-200 rounded-md relative'>
                         <img
                             className='shadow-lg w-full h-full absolute -right-4 top-4 object-cover rounded-lg'
@@ -18,15 +18,15 @@ const Info = () => {
                     </div>
                 </div>
 
-                <div className='w-full h-420 flex flex-col items-center justify-center'>
-                    <p className='text-lg text-textBase text-center'>
+                <div className='w-full h-440 flex flex-col items-center justify-center'>
+                    <p className='text-textBase text-center lg:text-lg'>
                         Frontend developer is the speciality in which I want to grow and develop as a specialist.
                         I learned everything by myself, step by step, to offer you the best practices and modern coding
                         techniques, never stopped learning new frameworks and libraries, creating new applications and
                         websites.
                     </p>
                     <br/>
-                    <p className='text-lg text-textBase text-center'>
+                    <p className='text-textBase text-center lg:text-lg'>
                         Today, having tools such as Typescript, Javascript, React, React Native, Redux, Redux Toolkit,
                         SCSS, Axios, Formik and many others on my belt, I can create a site of any complexity, both with
                         adaptive layout or with adaptive, no matter how many animations it needs to have or what device

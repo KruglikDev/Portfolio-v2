@@ -8,7 +8,7 @@ const Contact = () => {
             className="flex flex-col items-center justify-evenly w-full"
         >
             <p className="text-2xl text-gray-400 capitalize">Follow me on</p>
-            <div className="flex items-center justify-evenly w-full my-4 flex-wrap gap-4">
+            <div className="flex items-center justify-center w-full my-4 flex-wrap gap-10 px-10">
                 {socialLinks &&
                     socialLinks.map((el) => (
                         <motion.a
