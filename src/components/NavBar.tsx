@@ -51,7 +51,8 @@ const NavBar = () => {
                             </a>
                         </div>
 
-                        <a href="#"
+                        <a href="./Resume(ak).pdf"
+                           download
                            className='ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>
                             Download Resume
                         </a>
@@ -115,7 +116,8 @@ const NavBar = () => {
                                 Contact
                             </a>
                             <a onClick={() => setIsActive(false)}
-                               href="#"
+                               href="./Resume(ak).pdf"
+                               download
                                className='text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in-out'>
                                 Download Resume
                             </a>
