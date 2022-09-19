@@ -57,7 +57,7 @@ const NavBar = () => {
                         </a>
                     </div>
 
-                    <motion.button
+                    <motion.div
                         className="block md:hidden ml-auto cursor-pointer"
                         onClick={() => setIsActive(!isActive)}
                         initial={{opacity: 0, scale: 0.2}}
@@ -83,7 +83,7 @@ const NavBar = () => {
                                     : "opacity-50 group-hover:opacity-100"
                             }`}
                         />
-                    </motion.button>
+                    </motion.div>
 
 
                     {isActive && (
