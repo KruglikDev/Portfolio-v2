@@ -18,7 +18,7 @@ const Info = () => {
                     </div>
                 </div>
 
-                <div className='w-full h-440 flex flex-col items-center justify-center'>
+                <div className='w-full h-440 flex flex-col items-center justify-center md:ml-4'>
                     <p className='text-textBase text-center lg:text-lg'>
                         Frontend developer is the speciality in which I want to grow and develop as a specialist.
                         I learned everything by myself, step by step, to offer you the best practices and modern coding
