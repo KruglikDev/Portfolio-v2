@@ -46,7 +46,7 @@ export const Experience = [
     },
     {
         id: 2,
-        date: "04.2021 - 11.2021",
+        date: "01.2021 - 11.2021",
         iconsSrc: <IoCodeWorking/>,
         title: "Trainee/Junior FrontEnd Developer",
         company: "24Pixels Studio",
