@@ -37,11 +37,10 @@ export const Experience = [
         location: "Krasnoyarsk, Russia",
         description:
             [
-                "Developed various React Native websites and applications, the most interesting of which:",
-                "https://kozhindev.com - developed website's frontend part, improved it's view and added different features using React, Redux, Typescript and Steroids framework." +
-                "Implemented adaptive design for mobile phones/tablets.",
-                "https://goldenbee.estate - developed frontend part of website using React, Redux, Typescript and Steroids framework;",
-                "Connected local supermarket network React Native app with their database."
+                'Kozhindev is a large studio in the center of Siberia that uses the self-written Steroids framework (which has react under the hood in conjunction with redux). In it, I honed my teamwork skills, constantly interacted with designers and other developers to make the product professionally and quickly. Worked in weekly sprints via git-flow. Managed to work on three projects:',
+                'Finished a half-finished corporate site, added animations, adapted it for mobile devices and tablets, filled it with content, replaced images with webp and optimized them to speed up the site.',
+                'I was engaged in the development of a site for luxury real estate from the beginning to delivery to the client, adapted it for all devices, added a dynamic map that displays the property, stylized it to the needs of the customer.',
+                'Programmed an application for shopping in the Komandor supermarket chain, written in React Native.'
             ],
     },
     {
@@ -52,11 +51,7 @@ export const Experience = [
         company: "24Pixels Studio",
         location: "Krasnoyarsk, Russia",
         description: [
-            "Developed responsive/adaptive layouts for websites using Figma/Photoshop templates;",
-            "Maintained websites by adding new features and data;",
-            "Created front parts of websites using HTML, CSS/SASS, Javascript, React and Redux frameworks;",
-            "Conducted testing and review of website design for responsiveness, clarity and effectiveness;",
-            "Converted websites into installable PWA's to bring a native app-like user experience."
+            'Worked in a team with 4 other trainees, worked on 5 different projects, interacted with designers and developers, made up according to figma and psd layouts, worked according to the agile method, weekly sprints through git-flow, programmed sliders, forms, sidebars, adapted sites for mobile devices and tablets, did a lot of responsive, adaptive and responsive layout, did cross-browser layout (ResetCSS and NormalizeCSS, Autoprefixer), used Aria and semantic layout so that people with disabilities could use sites, learned how to use SASS and LESS preprocessors, BEM methodology, often used Bootstrap for quick layout, converted sites into installable PWA applications.'
         ]
     },
 ];
